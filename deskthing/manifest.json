@@ -1,0 +1,22 @@
+{
+  "id": "homeassistant",
+  "isWebApp": true,
+  "requires": [],
+  "label": "Home Assistant",
+  "version": "0.1.0",
+  "version_code": 1,
+  "compatible_server": [11],
+  "compatible_client": [11],
+  "description": "Focused Home Assistant controls for DeskThing",
+  "author": "NickTheWilder",
+  "platforms": ["linux"],
+  "homepage": "https://github.com/NickTheWilder/deskthing-ha-dashboard",
+  "repository": "https://github.com/NickTheWilder/deskthing-ha-dashboard",
+  "tags": ["webappOnly"],
+  "requiredVersions": {
+    "server": ">=0.11.0",
+    "client": ">=0.11.0"
+  },
+  "updateUrl": "https://github.com/NickTheWilder/deskthing-ha-dashboard/releases/latest",
+  "template": "base"
+}

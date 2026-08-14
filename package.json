@@ -1,0 +1,39 @@
+{
+  "name": "deskthing-ha-dashboard",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "author": "NickTheWilder",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NickTheWilder/deskthing-ha-dashboard.git"
+  },
+  "homepage": "https://github.com/NickTheWilder/deskthing-ha-dashboard#readme",
+  "scripts": {
+    "dev": "deskthing dev --vite",
+    "dev:mock": "VITE_HA_DASHBOARD_MOCK=1 deskthing dev --vite",
+    "build": "deskthing package",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit -p tsconfig.app.json && tsc --noEmit -p tsconfig.node.json"
+  },
+  "dependencies": {
+    "@deskthing/client": "^0.11.2",
+    "@deskthing/server": "^0.11.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@deskthing/cli": "^0.11.15",
+    "@deskthing/types": "^0.11.18",
+    "@types/node": "^22.10.7",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "typescript": "^5.7.2",
+    "vite": "^6.2.0"
+  },
+  "overrides": {
+    "esbuild": "0.25.12"
+  }
+}
